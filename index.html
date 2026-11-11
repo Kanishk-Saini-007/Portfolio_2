@@ -176,7 +176,7 @@ header.full .h-meta{display:none}
 @keyframes emberfall{0%{transform:translate(0,0);opacity:0}10%{opacity:.85}100%{transform:translate(4vw,34vh);opacity:0}}
 /* 5 - CIL settles into the site's black */
 #cil::before{content:"";position:absolute;top:0;left:0;right:0;height:30vh;z-index:4;background:linear-gradient(180deg,#050506 0%,rgba(5,5,6,.6) 40%,transparent 85%)}
-#cil::after{content:"";position:absolute;left:0;right:0;bottom:0;height:36vh;z-index:4;background:linear-gradient(180deg,transparent,rgba(5,5,6,.55) 55%,var(--bg2) 98%)}
+#cil::after{content:"";position:absolute;left:0;right:0;bottom:0;height:30vh;z-index:4;background:linear-gradient(180deg,transparent,rgba(5,5,6,.55) 55%,var(--bg2) 98%)}
 
 /* ============ HUD ============ */
 .hud{
@@ -287,7 +287,7 @@ h1,h2.mega,.p-copy h2{
 #dissolve .p-copy h2{text-shadow:0 4px 40px rgba(0,0,0,.8)}
 
 /* ============ WORKS ============ */
-#works{background:var(--bg2);color:var(--fg2);padding:14vh 5vw 10vh;transition:background .5s,color .5s}
+#works{background:var(--bg2);color:var(--fg2);padding:9vh 5vw 10vh;transition:background .5s,color .5s}
 .works-hero{display:grid;grid-template-columns:1.15fr .85fr;gap:5vw;align-items:center;max-width:1500px;margin:0 auto}
 .kicker{
   font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.34em;
@@ -451,6 +451,7 @@ h1,h2.mega,.p-copy h2{
   .frag.f1{right:2%}.frag.f2{left:2%}.frag.f3{right:2%}
   #attendx .shade{background:linear-gradient(180deg,rgba(242,241,238,.66) 0%,rgba(242,241,238,.5) 30%,rgba(242,241,238,.18) 52%,rgba(242,241,238,0) 72%)}
   #attendx .bg{background-position:50% 24%}
+  #attendx .p-copy.tr{top:16vh}
   #hero .bg{background-position:18% 15%}
   #build .bg{background-position:50% 30%}
   #hero::after{height:40vh}
