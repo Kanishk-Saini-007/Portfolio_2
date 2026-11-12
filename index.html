@@ -97,7 +97,7 @@ header.full .h-meta{display:none}
 }
 #hero{z-index:1}
 #build{z-index:2}
-#attendx{z-index:3;margin-top:-14vh}
+#attendx{z-index:3;margin-top:-24vh}
 #dissWrap{z-index:4}
 #storm{z-index:5}
 #cil{z-index:6}
@@ -116,10 +116,10 @@ header.full .h-meta{display:none}
 #hero .bg::after{background:linear-gradient(180deg,rgba(4,5,8,.46),rgba(4,5,8,.36) 30%,rgba(4,5,8,.44) 58%,rgba(4,5,8,.85) 92%),linear-gradient(90deg,rgba(4,5,8,.58),rgba(4,5,8,.14) 50%,rgba(4,5,8,0) 66%)}
 #build .bg::after{background:linear-gradient(180deg,rgba(5,5,6,.45),rgba(5,5,6,.12) 32%,rgba(5,5,6,.5) 68%,rgba(5,5,6,.86) 94%),linear-gradient(90deg,rgba(5,5,6,.55),rgba(5,5,6,0) 58%)}
 #storm .bg::after{background:linear-gradient(180deg,rgba(3,6,10,.42),rgba(3,6,10,0) 35%,rgba(3,6,10,.32) 65%,rgba(3,6,10,.8) 92%),linear-gradient(90deg,rgba(3,6,10,.48),rgba(3,6,10,0) 55%)}
-#attendx .bg::after{background:linear-gradient(180deg,rgba(243,242,238,.8) 0%,rgba(243,242,238,.42) 4%,rgba(243,242,238,.16) 9%,rgba(243,242,238,.06) 15%,rgba(243,242,238,.06) 40%,rgba(243,242,238,.3) 72%,rgba(243,242,238,.6) 92%),linear-gradient(270deg,rgba(243,242,238,.68),rgba(243,242,238,0) 55%),var(--dither);background-size:auto,auto,160px 160px;background-blend-mode:overlay}
+#attendx .bg::after{background:linear-gradient(180deg,rgba(243,242,238,.4) 0%,rgba(243,242,238,.15) 4%,rgba(243,242,238,.06) 9%,rgba(243,242,238,.06) 40%,rgba(243,242,238,.3) 72%,rgba(243,242,238,.6) 92%),linear-gradient(270deg,rgba(243,242,238,.68),rgba(243,242,238,0) 55%),var(--dither);background-size:auto,auto,160px 160px;background-blend-mode:overlay}
 #hero h2,#build h2,#storm h2{text-shadow:0 2px 34px rgba(0,0,0,.35)}
 #build .bg{background-position:50% 18%}
-#attendx .bg,#attendx .shade{-webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 13%);mask-image:linear-gradient(180deg,transparent 0%,#000 13%)}
+#attendx .bg,#attendx .shade{-webkit-mask-image:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,.25) 3%,rgba(0,0,0,.55) 6%,rgba(0,0,0,.85) 9.5%,rgba(0,0,0,1) 12%);mask-image:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,.25) 3%,rgba(0,0,0,.55) 6%,rgba(0,0,0,.85) 9.5%,rgba(0,0,0,1) 12%)}
 #attendx .p-copy.tr{top:10vh}
 #attendx .p-copy h2{font-size:clamp(40px,5.6vw,76px)}
 #build .bg{filter:saturate(1.02) brightness(.88)}
@@ -148,7 +148,7 @@ header.full .h-meta{display:none}
 #build .shade{background:linear-gradient(180deg,rgba(5,5,6,.5) 0%,rgba(5,5,6,.28) 30%,rgba(5,5,6,.38) 48%,rgba(5,5,6,.6) 62%,rgba(5,5,6,.8) 76%,rgba(5,5,6,.92) 88%,rgba(5,5,6,.97) 100%),var(--dither);background-size:auto,160px 160px;background-blend-mode:overlay}
 .seam{position:absolute;left:0;right:0;bottom:0;height:10vh;background:linear-gradient(180deg,rgba(243,242,238,0) 0%,rgba(243,242,238,.06) 14%,rgba(243,242,238,.14) 26%,rgba(243,242,238,.24) 37%,rgba(243,242,238,.36) 48%,rgba(243,242,238,.48) 58%,rgba(243,242,238,.6) 67%,rgba(243,242,238,.71) 75%,rgba(243,242,238,.81) 82%,rgba(243,242,238,.89) 88%,rgba(243,242,238,.95) 93%,rgba(243,242,238,1) 100%),var(--dither);background-size:auto,160px 160px;background-blend-mode:overlay;z-index:5;pointer-events:none}
 #build::before{content:"";position:absolute;top:0;left:0;right:0;height:30vh;z-index:4;background:linear-gradient(180deg,#050506 5%,transparent)}
-#build::after{content:"";position:absolute;left:0;right:0;bottom:0;height:52vh;z-index:4;background:linear-gradient(180deg,transparent 0%,rgba(226,226,224,.26) 46%,rgba(232,231,228,.6) 74%,#eeede9 97%)}
+#build::after{content:"";position:absolute;left:0;right:0;bottom:0;height:52vh;z-index:4;background:linear-gradient(180deg,rgba(243,242,238,0) 0%,rgba(243,242,238,.08) 26%,rgba(243,242,238,.2) 42%,rgba(243,242,238,.38) 56%,rgba(243,242,238,.6) 70%,rgba(243,242,238,.8) 82%,rgba(243,242,238,.93) 91%,rgba(243,242,238,1) 100%)}#build .seam{display:none}
 .si{font-family:'Playfair Display',serif;font-style:italic;font-weight:600;letter-spacing:0}
 .volt{color:#f2d500}.voltd{color:#dda700}.cy{color:var(--cyan)}
 .mband{overflow:hidden;border-top:1px solid var(--line2);border-bottom:1px solid var(--line2);margin:0 -5vw 10vh;padding:20px 0}
