@@ -156,6 +156,9 @@ header.full .h-meta{display:none}
 .mq span{font-family:'JetBrains Mono',monospace;font-size:clamp(20px,3.4vw,44px);letter-spacing:.12em;white-space:nowrap;padding-right:26px;color:transparent;-webkit-text-stroke:1px var(--fg2)}
 .mq b{font-weight:400;color:var(--amber);-webkit-text-stroke:0}
 @keyframes mq{to{transform:translateX(-50%)}}
+#build .p-copy{isolation:isolate}
+#build .p-copy::before{content:"";position:absolute;z-index:-1;left:50%;top:44%;transform:translate(-50%,-50%);width:190%;height:230%;background:radial-gradient(ellipse at center,rgba(5,5,6,.52) 0%,rgba(5,5,6,.3) 42%,rgba(5,5,6,0) 70%);pointer-events:none}
+
 
 #phonegate{display:none}
 @media (max-width:900px){
@@ -478,7 +481,7 @@ h1,h2.mega,.p-copy h2{
   #attendx .bg{background-position:50% 42%}
   #attendx .p-copy.tr{top:16vh}
   #hero .bg{background-position:18% 15%}
-  #build .bg{background-position:50% 30%}
+  #build .bg{background-position:50% 46%}
   #hero::after{height:40vh}
   .engage{display:none}
   .mband{margin:0 -16px 8vh}
